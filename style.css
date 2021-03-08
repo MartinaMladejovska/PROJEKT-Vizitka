@@ -5,20 +5,18 @@ html { box-sizing: border-box; }
 body {
     background-color: #b2bec3;
     font-family: 'Nunito', sans-serif;
-    margin-top: 150px;
-    
+    margin: 0;
 }
 
 .box {
     background-color: white;
     width: 550px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 150px auto;
     position: relative;
     padding: 30px;
     border-radius: 10px;
     font-size: 18px;
-   
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, .3);
 }
 
 img {
@@ -26,7 +24,7 @@ img {
     border-radius: 50%;
     border: 3px solid white;
     position: absolute;
-    bottom: 232px;
+    bottom: 391.3px;
     left: 475px;
 }
 
@@ -35,9 +33,39 @@ h1 {
     font-weight: bold;
     font-size: 36px;
     margin: 0 0 30px 0;
-
 }
 
+.twitter {
+    background-color: #1da1f2;
+    margin-bottom: 5px;
+}
+
+.facebook{
+    background-color: #3b5998;
+}
+
+a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+a.facebook:hover {
+    background-color: #2b406e;
+}
+
+a.twitter:hover {
+    background-color: #0b7bc1;
+}
+
+p {
+    margin-bottom: 30px;
+}
 
 /*
 BARVY:
